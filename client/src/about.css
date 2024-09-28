@@ -1,0 +1,65 @@
+#skill {
+    padding: 4rem 2rem;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+.skillContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.skillTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.bbg {
+    width: 300px; /* Adjust width for better responsiveness */
+    border-radius: 1rem;
+    margin: 2rem 0; /* Add spacing around the image */
+}
+
+.skillDesc {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto; /* Center the description */
+}
+
+.skillBars {
+    display: flex;
+    flex-direction: column; /* Stack the skill bars vertically */
+    align-items: center;
+    gap: 2rem; /* Space between skill bars */
+}
+
+.skillBar {
+    display: flex;
+    align-items: center;
+    background: #2c2c2c;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    width: 90%; /* Responsive width */
+    max-width: 600px; /* Set a maximum width */
+}
+
+.skillBarImg {
+    width: 50px; /* Adjust image size for better alignment */
+    height: 50px;
+    margin-right: 1.5rem;
+}
+
+.skillBarText h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0; /* Remove default margin */
+}
+
+.skillBarText p {
+    font-size: 1rem;
+    margin: 0.5rem 0 0; /* Add margin for spacing */
+}
